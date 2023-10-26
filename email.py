@@ -1,0 +1,5 @@
+sr = input("Enter your company email ID: ")
+x = sr.find("@")
+y = sr.find(".")
+print("the user name is ",sr[0:x])
+print("the company name is ",sr[x+1:y])
